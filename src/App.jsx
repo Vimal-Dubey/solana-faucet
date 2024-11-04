@@ -7,7 +7,7 @@ import { ShowSolBalance } from './Balance';
 import './index.css';
 
 function App() {
-   const endpoint =import.meta.env.VITE_SOLANA_API_KEY;
+   const endpoint ="https://solana-devnet.g.alchemy.com/v2/6dxfxaGayOgV4LnC-6oURvI0DRAoGc_e"; //put your own key here
  
   return (
     <ConnectionProvider endpoint={endpoint}>
